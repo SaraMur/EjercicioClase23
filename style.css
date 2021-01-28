@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* --------CONTAINER ARRIBA-----*/
+.container-arriba{
+    display: flex;
+    flex-direction: row;
+    margin-left: 112px;
+    margin-top: 120px;
+}
+/* CONTAINER DERECHA*/
+.derecha{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+}
+h1{
+    font-family: 'Spartan', sans-serif;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1.71px;
+    color: #512051;
+    margin-bottom: 15px;
+}
+p.derecha-parrafo{
+    font-family:'Spartan', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #927B91;
+    line-height: 25px;
+    text-align: left;
+}
+
+/* CONTAINER IZQUIERDA*/
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    width: 541px;
+    margin-right: 120px;
+    margin-top: 30px;
+    margin-left: 107px;
+}
+.caja-izq-uno{
+    width: 445px;
+    height: 56px;
+    margin-top: 18px;
+    border-radius: 5%;
+    background-color: #F7F2F7;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-left: 2px;
+    
+}
+.caja-izq-dos{
+    width: 445px;
+    height: 56px;
+    margin-top: 18px;
+    border-radius: 5%;
+    background-color: #F7F2F7;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-left: 2px;
+    margin-left: 45px;
+}
+.caja-izq-tres{
+    width: 445px;
+    height: 56px;
+    margin-top: 18px;
+    border-radius: 5%;
+    background-color: #F7F2F7;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-left: 2px;
+    margin-left: 90px;
+}
+h2{
+    font-family:'Spartan', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #512051;
+    padding-left: 15px;
+}
+
+/* --------CONTAINER ABAJO-----*/
+.container-abajo{
+    width: 1112px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 112px;
+}
+.card-uno{
+    width: 350px;
+    height: 234px;
+    background-color: #512051;
+    border-radius: 5%;
+    padding: 33px;
+}
+.card-dos{
+    width: 350px;
+    height: 234px;
+    background-color: #512051;
+    border-radius: 5%;
+    padding: 33px;
+}
+.card-tres{
+    width: 350px;
+    height: 234px;
+    background-color: #512051;
+    border-radius: 5%;
+    padding: 33px;
+}
